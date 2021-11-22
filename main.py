@@ -15,9 +15,9 @@ def hello():
     l = list(query())
     if not l:
         print("No result is returned")
-        created= "When might'd've been created ?"
-        description = "No Description"
-        done = "Is it done ? Who knows..."
+        created= "So what's happening here ?"
+        description = "Nothing as of right now"
+        done = "The operation was succesfull!"
     else:  
         d = dict(l[0])
         created=d['created']
